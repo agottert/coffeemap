@@ -2,22 +2,21 @@
 
 <template>
 	<div class="container">
-		<h2>{{ title }} <span>{{ subtitle }}</span></h2>
-    <Example />
-    <ButtonGeneral />
-    <ButtonMore />
-    <FilterButton />
-    <ButtonIcon />
-
+        <template v-if="isModalOpen">
+	    <div class="modal">
+            <button-general button-text="CLOSE" @buttonClick="closeModal"/>
+            <h1>Modal {{$route.params.id}}</h1>
+        </div>
+        </template>
 	</div>
 </template>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.container {
-    background-color: #7573d2;
+.modal {
+    background: #CCC;
+    width: 300px;
+    height: 500px;
 }
-
 h2 {
     display: block;
     font-size: 30px;

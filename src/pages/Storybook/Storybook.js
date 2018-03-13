@@ -1,6 +1,19 @@
 import Icon from '../../components/Icon/Icon';
 import VisualRating from '../../components/VisualRating/VisualRating';
 import InputDropdown from '../../components/InputDropdown/InputDropdown';
+import ButtonGeneral from '../../components/ButtonGeneral/ButtonGeneral.vue';
+import ButtonMore from '../../components/ButtonMore/ButtonMore.vue';
+import FilterButton from'../../components/FilterButton/FilterButton.vue';
+import ButtonIcon from'../../components/ButtonIcon/ButtonIcon.vue';
+import InputRadio from'../../components/InputRadio/InputRadio.vue';
+import VisualSliderItem from '../../components/VisualSliderItem/VisualSliderItem.vue';
+import VisualSlider from '../../components/VisualSlider/VisualSlider.vue';
+import RangeSlider from '../../components/RangeSlider/RangeSlider.vue';
+import Loader1 from '../../components/Loader/Loader1.vue'
+import Loader2 from '../../components/Loader/Loader2.vue'
+import Loader3 from '../../components/Loader/Loader3.vue'
+import Loader4 from '../../components/Loader/Loader4.vue'
+import Loader5 from '../../components/Loader/Loader5.vue'
 
 export default {
   name: 'storybook',
@@ -8,6 +21,20 @@ export default {
 		Icon, 
 		VisualRating,
 		InputDropdown,
+		ButtonGeneral,
+		ButtonMore,
+		FilterButton,
+		ButtonIcon,
+		InputRadio,
+		VisualSliderItem,
+		VisualSlider,
+		RangeSlider,
+		Loader1,
+		Loader2,
+		Loader3,
+		Loader4,
+		Loader5
+		
   },
 	data() {
 		return {
