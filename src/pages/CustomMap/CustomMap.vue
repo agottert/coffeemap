@@ -34,7 +34,8 @@
   position: absolute;
   z-index: 400;
   bottom: 10px;
-  max-width: 100vw;
+  width:100%;
+  overflow: visible;
 }
 
 .mapFilters {
